@@ -6,6 +6,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
+/*NAV*/
 .nav {
   background-color: white;
   padding: 0px 117px;
@@ -13,8 +14,8 @@ body {
   display: flex;
   align-items: center;
 }
-.nav__spacer{
-    flex: 9px;
+.nav__spacer {
+  flex: 9px;
 }
 .nav__icon {
   width: 26px;
@@ -43,8 +44,8 @@ body {
   text-shadow: 0px 0px 5px #e6e6e6;
   margin-left: 42px;
 }
-.links__item:first-child{
-    margin-left: 73px;
+.links__item:first-child {
+  margin-left: 73px;
 }
 .link:hover {
   color: #5e81fe;
@@ -69,6 +70,8 @@ button {
   line-height: 16px;
   border-radius: 2px;
   cursor: pointer;
+  width: 130px;
+  height: 43px;
 }
 .button_start {
   color: #3a79ff;
@@ -76,7 +79,195 @@ button {
   width: 113px;
   height: 43px;
 }
-.nav__button{
-    margin-left: 44px;
-    width: 113px;
+.nav__button {
+  margin-left: 44px;
+  width: 113px;
+}
+/*HEAD*/
+.head {
+  position: relative;
+  height: 570px;
+  width: 100%;
+  background-color: #f1f5ff;
+  display: flex;
+  justify-content: center;
+}
+.head__line {
+  position: absolute;
+}
+.head__info {
+  position: absolute;
+  top: 92px;
+  text-align: center;
+}
+.head__clouds {
+  height: 100%;
+  width: 100%;
+}
+.info__main {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 60px;
+  color: #3d4f9f;
+  margin-top: 16px;
+  margin-bottom: 28px;
+}
+.info__slogan {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #3d4f9f;
+}
+.info__secondary {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 29px;
+  letter-spacing: 0.03em;
+  color: #8d96bd;
+}
+.info__secondary_head{
+  width: 502px;
+}
+.clouds__1 {
+  position: absolute;
+}
+
+/*COMPANIES*/
+.companies {
+  display: flex;
+  background-color: white;
+  height: 145px;
+  padding: 0px 276px;
+  align-items: center;
+}
+.companies__item {
+  height: 29px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.companies__item_bitbucket {
+  background-image: url("./assets/companies/bitbucket.png");
+}
+.companies__item_watch {
+  background-image: url("./assets/companies/watch.png");
+}
+.companies__item_facebook {
+  background-image: url("./assets/companies/facebook.png");
+}
+.companies__item_atlassian {
+  background-image: url("./assets/companies/atlassian.png");
+}
+.companies__item_audi {
+  background-image: url("./assets/companies/audi.png");
+}
+
+/*PLAN*/
+.plan {
+  height: 776px;
+  background: #f5f8ff;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.plan__info {
+  text-align: left;
+  width: 431px;
+  height: 151px;
+  margin-top: 208px;
+}
+.plan__actions {
+  margin-top: 47px;
+}
+.button_video {
+  background: #4c85ff;
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.button_secondary {
+  border: 1px solid #d1d1e4;
+  background: none;
+  color: #adb4d2;
+  margin-left: -5px;
+}
+.plan__pictures{
+  margin-left: 55px;
+  width: 436px;
+}
+.pictures__desktop {
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(53, 60, 115, 0.15);
+  width: 539.95px;
+  height: 336.62px;
+  position: absolute;
+  top: 170px;
+  background-image: url(./assets/sreens/desktop.png);
+  background-position: center;
+  background-size: 95%;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  margin-left: 80px;
+}
+.pictures__keyboard {
+  background: #ffffff;
+  box-shadow: 0px 50px 50px rgba(107, 119, 224, 0.05),
+    0px 50px 150px rgba(104, 113, 198, 0.05),
+    0px 50px 200px rgba(53, 60, 115, 0.05),
+    0px 20px 40px rgba(159, 162, 195, 0.15);
+  position: absolute;
+  width: 606px;
+  height: 19.8px;
+  top: 499px;
+  margin-left: 47px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.pictures__mobile1 {
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(53, 60, 115, 0.15);
+  border-radius: 15px;
+  width: 107px;
+  height: 214px;
+  top: 270px;
+  position: absolute;
+  background-image: url(./assets/sreens/mobile1.png);
+  background-position: center;
+  background-size: 95%;
+  background-repeat: no-repeat;
+}
+.pictures__mobile2 {
+  position: absolute;
+  width: 148px;
+  height: 280px;
+  top: 326px;
+  background: #ffffff;
+  box-shadow: 0px 20px 40px rgba(53, 60, 115, 0.15);
+  border-radius: 15px;
+  background-image: url(./assets/sreens/mobile2.png);
+  background-position: center;
+  background-size: 95%;
+  background-repeat: no-repeat;
+  margin-left:444px;
+}
+.info__secondary_plan {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 29px;
+  letter-spacing: 0.03em;
+  color: #8d96bd;
+  width: 413px;
 }
