@@ -133,7 +133,7 @@ button {
   letter-spacing: 0.03em;
   color: #8d96bd;
 }
-.info__secondary_head{
+.info__secondary_head {
   width: 502px;
 }
 .clouds__1 {
@@ -202,7 +202,7 @@ button {
   color: #adb4d2;
   margin-left: -5px;
 }
-.plan__pictures{
+.plan__pictures {
   margin-left: 55px;
   width: 436px;
 }
@@ -259,7 +259,7 @@ button {
   background-position: center;
   background-size: 95%;
   background-repeat: no-repeat;
-  margin-left:444px;
+  margin-left: 444px;
 }
 .info__secondary_plan {
   font-family: "Roboto";
@@ -270,4 +270,102 @@ button {
   letter-spacing: 0.03em;
   color: #8d96bd;
   width: 413px;
+}
+/*APPS*/
+.apps {
+  height: 885px;
+  background: #ffffff;
+}
+.info__main_apps {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #3d4f9f;
+}
+.info_apps {
+  text-align: center;
+}
+.apps__list {
+  display: flex;
+  width: 685px;
+  margin: auto;
+  justify-content: space-between;
+}
+.apps__info {
+  margin-top: 171px;
+  margin-bottom: 92px;
+}
+.info__main_apps {
+  margin-top: 20px;
+}
+.apps__item {
+}
+.app__img {
+  background: #f1f5ff;
+  width: 69px;
+  height: 69px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 33px;
+}
+.app__info {
+  width: 140px;
+  height: 102px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 19px;
+  text-align: center;
+  color: #adb3cb;
+}
+.app__name {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  color: #4074f8;
+  margin-bottom: 25px;
+}
+.apps__limit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 1px;
+  margin-top: 127px;
+}
+.button_more {
+  color: #d43f3f;
+  background: #ffd7d7;
+  width: 113px;
+  height: 43px;
+}
+.apps__actions {
+  margin-top: 92px;
+}
+.actions{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.actions__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 19px;
+  text-align: center;
+  color: #adb3cb;
+}
+.actions__limit{
+  border: 1px solid #DAE4FE;
+  width: 15px;
+  height: 0px;
+  margin: 0px 16px;
 }
